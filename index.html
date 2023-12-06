@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><img src="./LOGO.png" alt=""></h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Menu</a></li>
+            <li><a href="course.html">Prepartions</a></li>
+            <li><a href="blog.html">About US</a></li>
+            <li><a href="contact.html">Types</a></li>
+            <li class="ctn"><a href="#"></a>Contact US</li>
+        </ul>
+        <img src="./menu.png" alt="" class="menu-Btn">
+    </nav>
+   
+    <header>
+        <div class="header-content">
+                <h5>Lorem, Ipsum Dolor.</h5>
+                <h1>Lorem Ipsum Dolor <br> Sit Amet Consectetur.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Omnis magnam velit deleniti fuga possimus?</p>
+                <a href="" class="ctn">Order Now</a> 
+        </div>
+    </header>
+
+    <div class="our-menu">
+        <div class="left">
+            <img src="./fish piece.png" alt="">
+            <div class="vertical"></div>
+            <h5>our menu</h5>
+            <h2>Lorem, ipsum dolor</h2>
+            <div class="img-two">
+                <img src="./tray.jpg" alt="">
+                <h5 >Must Try!</h5>
+                <h2>Lorem, Ipsum Dolor.</h2>
+                <p>Lorem ipsum, dolor sit  ame bj ghv fgb dhfk nftukbn thv <br> Lorem ipsum dolor sit amet.
+            </div>
+            <button class="btn">Orde Now</button>    
+        </div>
+        <div class="right">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit <br> dolorum doloremque iusto harum at modi placeat voluptate <br>eum eaque quae corrupti adipisci sequi velit,</p>
+            <img src="./coli.jpg" alt="">
+            <h5>Best Seller!</h5>
+            <h2>Lorem Ipsum Dolor</h2>
+            <div class="pragraph-two">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Beatae necessitatibus mollitia laudantium assumenda  libero eveniet perferendis!</p>
+            </div>
+            <button class="btn-right">Order</button>
+            <div class="sweet">
+                <img src="./sweet.jpg" alt="">
+            </div>
+        </div>
+
+    <div class="content">
+        <h5>Lorem, ipsum dolor.</h5>
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repellendus!</p>
+        <button>Order Now</button>
+    </div>
+
+
+
+
+     
+    <script>
+          const menuBtn = document.querySelector('.menu-Btn')
+          const navlinks = document.querySelector('.nav-links')
+
+          menuBtn.addEventListener('click',()=>{
+          navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+   
+    
+</body>
+</html>
