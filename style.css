@@ -87,7 +87,7 @@ a {
 .header-content{
     margin-bottom: 5px;
     color: whitesmoke;
-    text-align: left;
+    text-align:left;
     margin-top: 12%;
 }
 
@@ -275,7 +275,7 @@ a {
 .pragraph-two p{
     padding-bottom: 10px;
     padding-top: 5px;
-    color:  rgb(133, 130, 130);
+    color:  rgb(208, 3, 3);
 }
 
 
@@ -350,8 +350,13 @@ a {
 .types p{
     margin-left: 60%;
     margin-top: 0%;
+    color: gray;
+    margin-left: 5px;
+    /* margin-top: px; */
+     
     /* margin-bottom: 50%; */
 }
+
 
 
 .vertical{
@@ -429,14 +434,18 @@ a {
 .testimonials{
     height: 100%;
     width: 100%;
+    text-align: left;
+    justify-content: left;
+    background-color: red;
 }
 
+ 
 .container {
 	position: relative;
 	z-index: 1;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items:center;
 	flex-wrap: wrap;
 	margin: 40px 0;
 }
@@ -449,15 +458,15 @@ a {
 	border-radius: 15px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	backdrop-filter: blur(10px);
+	/* align-items: center; */
+	/* backdrop-filter: blur(10px); */
 }
 
 .container .card .content {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
 	flex-direction: column;
 	/* transition: 0.5s; */
 }
@@ -485,7 +494,7 @@ a {
 	letter-spacing: 2px;
 	font-weight: 500;
 	font-size: 18px;
-	text-align: center;
+	/* text-align: center; */
 	margin: 20px 0 10px;
 	line-height: 1.1em;
 }
@@ -713,7 +722,7 @@ padding: 10px;
 .footer{
     height: 70%;
     width: 100%;
-    background-image: url(./footer2.png);
+    background-image: url(./footer2\ update.png);
     background-position:center; 
     background-size:cover;
     object-fit: cover;
@@ -729,7 +738,7 @@ padding: 10px;
 
 .footer-link {
     display: flex;
-    margin-top: 15%;
+    margin-top: 22%;
 }
 
 .footer-link li{
@@ -747,13 +756,20 @@ padding: 10px;
 }
 
 
-/* .logo-two img{
-    height: 100%;
-    width: 100%;
-    margin-top: 100%;
-    margin-left: 5%;
+ .logo-two img{ 
+     height: 140%; 
+    width: 250%;
+    
+    margin-left: 30%;
+     margin-top: 350%;
+     display: flex;
+    
+    
+    
+    
     margin-bottom: 200%;
-} */
+    
+} 
 
 
 
@@ -828,5 +844,27 @@ padding: 10px;
         font-size: 18px;
     }
 }
-   
+.logo-two{
+    margin-right: 10%;
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color:#1C1B1A;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+} */
+
    
